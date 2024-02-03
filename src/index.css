@@ -1,0 +1,4 @@
+/*In the main file where you put all the css*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
