@@ -1,7 +1,8 @@
-type Customer = {
+export type Customer = {
   name: string;
   tag: string;
   image: string;
+  review: Review;
 };
 
 type Review = {
@@ -11,10 +12,8 @@ type Review = {
 
 export function Review({
   customer,
-  review,
 }: Readonly<{
   customer: Customer;
-  review: Review;
 }>) {
   return (
     <div className="overflow-hidden bg-white rounded-md">
@@ -44,8 +43,10 @@ export function Review({
         </div>
         <blockquote className="mt-5">
           <p className="text-base text-gray-800">
-            {review.content}
-            <span className="block text-sky-500">{review.impression}</span>
+            {customer.review.content}
+            <span className="block text-sky-500">
+              {customer.review.impression}
+            </span>
           </p>
         </blockquote>
       </div>

@@ -1,12 +1,21 @@
-import { CustomerReviews } from "./components/CustomerReviews";
-import { Header } from "./components/Header";
+import { Attraction } from "./components/AttractionSection";
+import { CustomerReviews } from "./components/CustomerReviewsSection";
+import { Features } from "./components/FeaturesSection";
+import { Footer } from "./components/FooterSection";
+import { Header } from "./components/NavBar";
+import { Home } from "./components/HomeSection";
+import { Pricing } from "./components/PricingSection";
 
 function App() {
   return (
     <>
-    <div className="bg-red-200 w-10"></div>
       <Header></Header>
+      <Home />
+      <Attraction />
+      <Features />
       <CustomerReviews />
+      <Pricing />
+      <Footer />
     </>
   );
 }
