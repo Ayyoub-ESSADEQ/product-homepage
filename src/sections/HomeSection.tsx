@@ -1,6 +1,9 @@
 export function Home() {
   return (
-    <section className="py-10 bg-gradient-to-r from-fuchsia-600 to-blue-600 sm:py-16 lg:py-24 pt-16">
+    <section
+      id="Crafty"
+      className="py-10 bg-gradient-to-r from-fuchsia-600 to-blue-600 sm:py-16 lg:py-24 pt-16"
+    >
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="animate-slidein [--slidein-delay:300ms] text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">

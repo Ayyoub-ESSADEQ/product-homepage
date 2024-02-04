@@ -1,10 +1,10 @@
-import { Attraction } from "./components/sections/AttractionSection";
-import { CustomerReviews } from "./components/sections/CustomerReviewsSection";
-import { Features } from "./components/sections/FeaturesSection";
-import { Footer } from "./components/sections/FooterSection";
+import { Attraction } from "./sections/AttractionSection";
+import { CustomerReviews } from "./sections/CustomerReviewsSection";
+import { Features } from "./sections/FeaturesSection";
+import { Footer } from "./sections/FooterSection";
 import { Header } from "./components/NavBar";
-import { Home } from "./components/sections/HomeSection";
-import { Pricing } from "./components/sections/PricingSection";
+import { Home } from "./sections/HomeSection";
+import { Pricing } from "./sections/PricingSection";
 
 function App() {
   return (

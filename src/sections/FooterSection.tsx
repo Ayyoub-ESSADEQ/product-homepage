@@ -1,7 +1,7 @@
-import { Company } from "../Company";
-import { Help } from "../Help";
-import { NewsLetter } from "../NewsLetters";
-import { SocialMedia } from "../SocialMedia";
+import { Company } from "../components/Company";
+import { Help } from "../components/Help";
+import { NewsLetter } from "../components/NewsLetters";
+import { SocialMedia } from "../components/SocialMedia";
 
 export function Footer() {
   return (

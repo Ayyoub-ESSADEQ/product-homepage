@@ -4,11 +4,18 @@ const Tab = ({
   children,
   className,
 }: {
-  children: React.ReactNode;
+  children: string;
   className?: string;
 }) => {
+  const reveal = () => {
+    document.getElementById(children)?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <div className={`${className} hover:text-white hover:cursor-pointer`}>
+    <div
+      onClick={reveal}
+      className={`${className} hover:text-white hover:cursor-pointer`}
+    >
       {children}
     </div>
   );
@@ -56,7 +63,7 @@ export function NavBarMobile() {
     <div>
       <div className="flex z-50 select-none font-bold text-[12px] justify-between top-3 fixed left-[50%] translate-x-[-50%] flex-row items-center p-2 text-[#7A7A7D] rounded-[14px] bg-[#222227] w-[95%]">
         <Tab className="w-fit text-white flex flex-row items-center gap-x-1">
-          <span>Crafty</span>
+          Crafty
         </Tab>
         <Button disabled onClick={() => setClose(!close)}>
           {close ? (
@@ -67,13 +74,15 @@ export function NavBarMobile() {
         </Button>
 
         {close ? (
-          <div className="flex flex-col gap-3 absolute z-[-1] bg-[#2222278a] rounded-[14px] mt-[50px] px-12 py-8 top-0 left-0 w-full h-fit">
-            <div className="hover:text-white cursor-pointer">HOME</div>
-            <div className="hover:text-white cursor-pointer">BOOST</div>
-            <div className="hover:text-white cursor-pointer">FEATURES</div>
-            <div className="hover:text-white cursor-pointer">
-              PRICING & PLAN
-            </div>
+          <div
+            onClick={() => setClose(false)}
+            className="flex flex-col gap-3 absolute z-[-1] bg-[#2222278a] rounded-[14px] mt-[50px] px-12 py-8 top-0 left-0 w-full h-fit"
+          >
+            <Tab>HOME</Tab>
+            <Tab>BOOST</Tab>
+            <Tab>FEATURES</Tab>
+            <Tab>REVIEWS</Tab>
+            <Tab>PRICING & PLAN</Tab>
           </div>
         ) : (
           ""
@@ -92,10 +101,11 @@ export function NavBarDesktop() {
   return (
     <div className="flex z-50 select-none font-bold text-[12px] justify-evenly top-3 fixed left-[50%] translate-x-[-50%] flex-row items-center p-2 text-[#7A7A7D] rounded-[14px] bg-[#222227] w-[600px]">
       <Tab className="w-fit text-white flex flex-row items-center gap-x-1">
-        <span>Crafty</span>
+        Crafty
       </Tab>
       <Tab>BOOST</Tab>
       <Tab>FEATURES</Tab>
+      <Tab>REVIEWS</Tab>
       <Tab>PRICING & PLAN</Tab>
 
       <Button>
@@ -111,7 +121,7 @@ export function NavBarDesktop() {
 }
 
 export function MaterialSymbolsLightMenuRounded(
-  props: React.SVGProps<SVGSVGElement>
+  props: Readonly<React.SVGProps<SVGSVGElement>>
 ) {
   return (
     <svg
