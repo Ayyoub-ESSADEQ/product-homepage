@@ -18,13 +18,7 @@ export const features = [
     title: "Drag and Drop Elements",
     description:
       "Effortlessly add and arrange elements on your pages using a simple drag-and-drop mechanism.",
-    icon: Moon.Red,
-  },
-  {
-    title: "Responsive Design",
-    description:
-      "Ensure your website looks great on all devices by easily adjusting the layout and elements for responsiveness.",
-    icon: LightningFeature.Blue,
+    icon: LightningFeature.Red,
   },
   {
     title: "Code Editor Integration",
@@ -33,10 +27,16 @@ export const features = [
     icon: Moon.Orange,
   },
   {
+    title: "Responsive Design",
+    description:
+      "Ensure your website looks great on all devices by easily adjusting the layout and elements for responsiveness.",
+    icon: LightningFeature.Blue,
+  },
+  {
     title: "SEO Optimization",
     description:
       "Improve your website's search engine visibility with built-in SEO tools and optimization recommendations.",
-    icon: Moon.Red,
+    icon: LightningFeature.Yellow,
   },
   {
     title: "Advanced Analytics",
