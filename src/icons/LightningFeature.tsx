@@ -38,19 +38,25 @@ export class Lightning {
 
   static Red() {
     return (
-      <this.Icon backgroundColor="text-rose-100" iconColor="text-rose-600" />
+      <Lightning.Icon
+        backgroundColor="text-rose-100"
+        iconColor="text-rose-600"
+      />
     );
   }
 
   static Yellow() {
     return (
-      <this.Icon backgroundColor="text-lime-100" iconColor="text-lime-600" />
+      <Lightning.Icon
+        backgroundColor="text-lime-100"
+        iconColor="text-lime-600"
+      />
     );
   }
 
   static Blue() {
     return (
-      <this.Icon
+      <Lightning.Icon
         backgroundColor="text-purple-100"
         iconColor="text-purple-600"
       />

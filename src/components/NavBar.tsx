@@ -56,8 +56,7 @@ export function NavBarMobile() {
     <div>
       <div className="flex z-50 select-none font-bold text-[12px] justify-between top-3 fixed left-[50%] translate-x-[-50%] flex-row items-center p-2 text-[#7A7A7D] rounded-[14px] bg-[#222227] w-[95%]">
         <Tab className="w-fit text-white flex flex-row items-center gap-x-1">
-          <img className="scale-75" alt="cocaptain"/>
-          <span>Cocaptain</span>
+          <span>Crafty</span>
         </Tab>
         <Button disabled onClick={() => setClose(!close)}>
           {close ? (
@@ -70,10 +69,11 @@ export function NavBarMobile() {
         {close ? (
           <div className="flex flex-col gap-3 absolute z-[-1] bg-[#2222278a] rounded-[14px] mt-[50px] px-12 py-8 top-0 left-0 w-full h-fit">
             <div className="hover:text-white cursor-pointer">HOME</div>
-            <div className="hover:text-white cursor-pointer">PRODUCTS</div>
-            <div className="hover:text-white cursor-pointer">COMPANY</div>
-            <div className="hover:text-white cursor-pointer">PRICING</div>
-            <div className="hover:text-white cursor-pointer">AFFILIATES</div>
+            <div className="hover:text-white cursor-pointer">BOOST</div>
+            <div className="hover:text-white cursor-pointer">FEATURES</div>
+            <div className="hover:text-white cursor-pointer">
+              PRICING & PLAN
+            </div>
           </div>
         ) : (
           ""
@@ -92,19 +92,18 @@ export function NavBarDesktop() {
   return (
     <div className="flex z-50 select-none font-bold text-[12px] justify-evenly top-3 fixed left-[50%] translate-x-[-50%] flex-row items-center p-2 text-[#7A7A7D] rounded-[14px] bg-[#222227] w-[600px]">
       <Tab className="w-fit text-white flex flex-row items-center gap-x-1">
-        <img className=" scale-75" alt="cocaptain" ></img>
-        <span>Cocaptain</span>
+        <span>Crafty</span>
       </Tab>
-      <Tab>PRODUCTS</Tab>
-      <Tab>COMPANY</Tab>
-      <Tab>PRICING</Tab>
-      <Tab>AFFILIATES</Tab>
+      <Tab>BOOST</Tab>
+      <Tab>FEATURES</Tab>
+      <Tab>PRICING & PLAN</Tab>
+
       <Button>
         <a
           target="_blank"
           href="https://marketplace.visualstudio.com/items?itemName=Ayyoub-Essadeq.cocaptain"
         >
-          DOWNLOAD
+          GET STARTED
         </a>
       </Button>
     </div>

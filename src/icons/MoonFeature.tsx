@@ -38,13 +38,13 @@ export class Moon {
 
   static Red() {
     return (
-      <this.Icon backgroundColor="text-rose-100" iconColor="text-rose-600" />
+      <Moon.Icon backgroundColor="text-rose-100" iconColor="text-rose-600" />
     );
   }
 
   static Yellow() {
     return (
-      <this.Icon
+      <Moon.Icon
         backgroundColor="text-yellow-100"
         iconColor="text-yellow-500"
       />
@@ -53,7 +53,7 @@ export class Moon {
 
   static Orange() {
     return (
-      <this.Icon backgroundColor="text-orange-100" iconColor="text-orange" />
+      <Moon.Icon backgroundColor="text-orange-100" iconColor="text-orange" />
     );
   }
 }

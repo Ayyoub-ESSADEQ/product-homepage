@@ -2,21 +2,21 @@ import { Profile, Lightning, Cursor } from "../icons/Icons";
 
 export const processes = [
   {
-    title: "Create a free account",
+    title: "Sign Up for an Account",
     icon: Profile,
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "Create a free account to get started with our website creation tool. Unlock a world of possibilities for building your online presence.",
   },
   {
-    title: "Build your website",
+    title: "Design Your Layout",
     icon: Cursor,
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "Utilize our intuitive drag-and-drop interface to design and customize the layout of your website. No coding skills required!",
   },
   {
-    title: "Release & launch",
+    title: "Optimize & Launch",
     icon: Lightning,
     description:
-      "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      "Fine-tune your website, optimize for performance, and then release it to the world. Ensure a seamless and successful launch.",
   },
 ];

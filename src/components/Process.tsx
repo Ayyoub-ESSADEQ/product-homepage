@@ -6,7 +6,7 @@ type Process = {
 
 export function Process({ process }: Readonly<{ process: Process }>) {
   return (
-    <li className="relative flex items-start">
+    <li className="relative flex items-start opacity-0">
       <div
         className="-ml-0.5 absolute mt-0.5 top-14 left-8 w-px border-l-4 border-dotted border-gray-300 h-full"
         aria-hidden="true"

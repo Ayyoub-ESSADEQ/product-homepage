@@ -4,17 +4,15 @@ export function Home() {
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="animate-slidein [--slidein-delay:300ms] text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
-            Celebration helps you build beautiful website
+            Crafty helps you build beautiful website
           </h2>
           <p className="mt-4 text-base leading-relaxed opacity-0 text-gray-100 animate-slidein [--slidein-delay:500ms] ">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
+            Crafty empowers you to effortlessly create stunning websites. With
+            intuitive tools and customizable features, bring your vision to life
+            and showcase your unique online presence with beauty and ease.
           </p>
 
-          <div
-            className=" animate-slidein [--slidein-delay:700ms] opacity-0 inline-flex cursor-pointer items-center justify-center px-6 py-4 mt-10 text-base font-semibold bg-white rounded-md"
-          >
+          <div className=" animate-slidein [--slidein-delay:700ms] opacity-0 inline-flex cursor-pointer items-center justify-center px-6 py-4 mt-10 text-base font-semibold bg-white rounded-md">
             <svg
               className="w-5 h-5 mr-2 -ml-1 text-fuchsia-600"
               xmlns="http://www.w3.org/2000/svg"

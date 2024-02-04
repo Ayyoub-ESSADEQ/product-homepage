@@ -26,7 +26,7 @@ export default {
         },
       },
       animation: {
-        slidein: "slidein 1s ease var(--slidein-delay, 0) forwards",
+        slidein: "slidein 1s ease var(--slidein-delay, 300ms) forwards",
         scaleout: "scaleout 1s ease"
       },
     },

@@ -38,4 +38,22 @@ export const features = [
       "Improve your website's search engine visibility with built-in SEO tools and optimization recommendations.",
     icon: Moon.Red,
   },
+  {
+    title: "Advanced Analytics",
+    description:
+      "Gain insights into your website's performance with integrated analytics tools and detailed statistics.",
+    icon: LightningFeature.Yellow,
+  },
+  {
+    title: "Collaboration Tools",
+    description:
+      "Collaborate seamlessly with team members by sharing and editing projects in real-time.",
+    icon: Moon.Orange,
+  },
+  {
+    title: "Third-Party Integrations",
+    description:
+      "Enhance your website's functionality by easily integrating with third-party services and tools.",
+    icon: Moon.Red,
+  },
 ];
