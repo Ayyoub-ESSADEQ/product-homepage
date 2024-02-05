@@ -32,7 +32,7 @@ export function Home() {
             </svg>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-600 to-blue-600">
               {" "}
-              Explore Celebration{" "}
+              Explore Crafty{" "}
             </span>
           </div>
         </div>
