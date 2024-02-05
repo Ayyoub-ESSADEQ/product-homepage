@@ -2,7 +2,7 @@ export function Home() {
   return (
     <section
       id="Crafty"
-      className="py-10 bg-gradient-to-r from-fuchsia-600 to-blue-600 sm:py-16 lg:py-24 pt-16"
+      className="py-10 bg-gradient-to-r min-w-full from-fuchsia-600 to-blue-600 sm:py-16 lg:py-24 pt-16"
     >
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-xl mx-auto text-center">

@@ -109,12 +109,10 @@ export function NavBarDesktop() {
       <Tab>PRICING & PLAN</Tab>
 
       <Button>
-        <a
-          target="_blank"
-          href="https://marketplace.visualstudio.com/items?itemName=Ayyoub-Essadeq.cocaptain"
+        <div
         >
           GET STARTED
-        </a>
+        </div>
       </Button>
     </div>
   );
