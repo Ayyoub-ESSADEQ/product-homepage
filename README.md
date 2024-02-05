@@ -56,6 +56,6 @@ If you'd like to contribute to the project, please follow these steps:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code.
+This project is licensed under the [GNU License](LICENSE), which means you are free to use, modify, and distribute the code.
 
 Feel free to explore the project, contribute, and enhance the landing page for the website creation tool. Happy coding!
